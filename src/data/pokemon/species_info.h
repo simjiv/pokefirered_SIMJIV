@@ -675,10 +675,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_EKANS] =
     {
-        .baseHP = 35,
-        .baseAttack = 60,
+        .baseHP = 40,
+        .baseAttack = 65,
         .baseDefense = 44,
-        .baseSpeed = 55,
+        .baseSpeed = 60,
         .baseSpAttack = 40,
         .baseSpDefense = 54,
         .types = {TYPE_POISON, TYPE_POISON},
@@ -704,10 +704,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_ARBOK] =
     {
-        .baseHP = 60,
-        .baseAttack = 85,
+        .baseHP = 62,
+        .baseAttack = 95,
         .baseDefense = 69,
-        .baseSpeed = 80,
+        .baseSpeed = 90,
         .baseSpAttack = 65,
         .baseSpDefense = 79,
         .types = {TYPE_POISON, TYPE_POISON},
@@ -735,10 +735,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP = 35,
         .baseAttack = 55,
-        .baseDefense = 30,
+        .baseDefense = 40,
         .baseSpeed = 90,
         .baseSpAttack = 50,
-        .baseSpDefense = 40,
+        .baseSpDefense = 50,
         .types = {TYPE_ELECTRIC, TYPE_ELECTRIC},
         .catchRate = 190,
         .expYield = 82,
@@ -1056,7 +1056,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseAttack = 70,
         .baseDefense = 73,
         .baseSpeed = 60,
-        .baseSpAttack = 85,
+        .baseSpAttack = 95,
         .baseSpDefense = 90,
         .types = {TYPE_NORMAL, TYPE_NORMAL},
         .catchRate = 25,
@@ -1081,12 +1081,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_VULPIX] =
     {
-        .baseHP = 38,
+        .baseHP = 45,
         .baseAttack = 41,
-        .baseDefense = 40,
-        .baseSpeed = 65,
-        .baseSpAttack = 50,
-        .baseSpDefense = 65,
+        .baseDefense = 45,
+        .baseSpeed = 75,
+        .baseSpAttack = 60,
+        .baseSpDefense = 70,
         .types = {TYPE_FIRE, TYPE_FIRE},
         .catchRate = 190,
         .expYield = 63,
@@ -1110,11 +1110,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_NINETALES] =
     {
-        .baseHP = 73,
-        .baseAttack = 76,
-        .baseDefense = 75,
+        .baseHP = 78,
+        .baseAttack = 71,
+        .baseDefense = 80,
         .baseSpeed = 100,
-        .baseSpAttack = 81,
+        .baseSpAttack = 86,
         .baseSpDefense = 100,
         .types = {TYPE_FIRE, TYPE_FIRE},
         .catchRate = 75,
@@ -1170,10 +1170,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP = 140,
         .baseAttack = 70,
-        .baseDefense = 45,
+        .baseDefense = 55,
         .baseSpeed = 45,
-        .baseSpAttack = 75,
-        .baseSpDefense = 50,
+        .baseSpAttack = 85,
+        .baseSpDefense = 55,
         .types = {TYPE_NORMAL, TYPE_NORMAL},
         .catchRate = 50,
         .expYield = 109,
@@ -1255,7 +1255,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_ODDISH] =
     {
-        .baseHP = 45,
+        .baseHP = 50,
         .baseAttack = 50,
         .baseDefense = 55,
         .baseSpeed = 30,
@@ -1284,7 +1284,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_GLOOM] =
     {
-        .baseHP = 60,
+        .baseHP = 70,
         .baseAttack = 65,
         .baseDefense = 70,
         .baseSpeed = 40,
@@ -1313,9 +1313,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_VILEPLUME] =
     {
-        .baseHP = 75,
+        .baseHP = 90,
         .baseAttack = 80,
-        .baseDefense = 85,
+        .baseDefense = 95,
         .baseSpeed = 50,
         .baseSpAttack = 100,
         .baseSpDefense = 90,
@@ -1430,10 +1430,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_VENOMOTH] =
     {
         .baseHP = 70,
-        .baseAttack = 65,
+        .baseAttack = 75,
         .baseDefense = 60,
-        .baseSpeed = 90,
-        .baseSpAttack = 90,
+        .baseSpeed = 100,
+        .baseSpAttack = 95,
         .baseSpDefense = 75,
         .types = {TYPE_BUG, TYPE_POISON},
         .catchRate = 75,
@@ -1488,7 +1488,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DUGTRIO] =
     {
         .baseHP = 35,
-        .baseAttack = 80,
+        .baseAttack = 90,
         .baseDefense = 50,
         .baseSpeed = 120,
         .baseSpAttack = 50,
@@ -1538,7 +1538,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_PICKUP, ABILITY_NONE},
+        .abilities = {ABILITY_PICKUP, ABILITY_HUSTLE},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
@@ -1567,7 +1567,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_LIMBER, ABILITY_NONE},
+        .abilities = {ABILITY_LIMBER, ABILITY_HUSTLE},
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
@@ -2244,7 +2244,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseHP = 50,
         .baseAttack = 85,
         .baseDefense = 55,
-        .baseSpeed = 90,
+        .baseSpeed = 100,
         .baseSpAttack = 65,
         .baseSpDefense = 65,
         .types = {TYPE_FIRE, TYPE_FIRE},
@@ -2273,7 +2273,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseHP = 65,
         .baseAttack = 100,
         .baseDefense = 70,
-        .baseSpeed = 105,
+        .baseSpeed = 115,
         .baseSpAttack = 80,
         .baseSpDefense = 80,
         .types = {TYPE_FIRE, TYPE_FIRE},
@@ -2535,7 +2535,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseAttack = 70,
         .baseDefense = 80,
         .baseSpeed = 70,
-        .baseSpAttack = 70,
+        .baseSpAttack = 80,
         .baseSpDefense = 95,
         .types = {TYPE_WATER, TYPE_ICE},
         .catchRate = 75,
@@ -2565,7 +2565,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseDefense = 50,
         .baseSpeed = 25,
         .baseSpAttack = 40,
-        .baseSpDefense = 50,
+        .baseSpDefense = 75,
         .types = {TYPE_POISON, TYPE_POISON},
         .catchRate = 190,
         .expYield = 90,
@@ -2618,7 +2618,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_SHELLDER] =
     {
-        .baseHP = 30,
+        .baseHP = 35,
         .baseAttack = 65,
         .baseDefense = 100,
         .baseSpeed = 40,
@@ -3053,7 +3053,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_MAROWAK] =
     {
-        .baseHP = 60,
+        .baseHP = 65,
         .baseAttack = 80,
         .baseDefense = 110,
         .baseSpeed = 45,
@@ -3084,7 +3084,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP = 50,
         .baseAttack = 120,
-        .baseDefense = 53,
+        .baseDefense = 58,
         .baseSpeed = 87,
         .baseSpAttack = 35,
         .baseSpDefense = 110,
@@ -3114,7 +3114,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseHP = 50,
         .baseAttack = 105,
         .baseDefense = 79,
-        .baseSpeed = 76,
+        .baseSpeed = 81,
         .baseSpAttack = 35,
         .baseSpDefense = 110,
         .types = {TYPE_FIGHTING, TYPE_FIGHTING},
@@ -3140,12 +3140,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_LICKITUNG] =
     {
-        .baseHP = 90,
-        .baseAttack = 55,
-        .baseDefense = 75,
+        .baseHP = 95,
+        .baseAttack = 70,
+        .baseDefense = 85,
         .baseSpeed = 30,
-        .baseSpAttack = 60,
-        .baseSpDefense = 75,
+        .baseSpAttack = 75,
+        .baseSpDefense = 85,
         .types = {TYPE_NORMAL, TYPE_NORMAL},
         .catchRate = 45,
         .expYield = 127,
@@ -3198,7 +3198,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_WEEZING] =
     {
-        .baseHP = 65,
+        .baseHP = 75,
         .baseAttack = 90,
         .baseDefense = 120,
         .baseSpeed = 60,
@@ -3460,7 +3460,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_SEAKING] =
     {
         .baseHP = 80,
-        .baseAttack = 92,
+        .baseAttack = 100,
         .baseDefense = 65,
         .baseSpeed = 68,
         .baseSpAttack = 65,
@@ -3662,7 +3662,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_MAGMAR] =
     {
-        .baseHP = 65,
+        .baseHP = 75,
         .baseAttack = 95,
         .baseDefense = 57,
         .baseSpeed = 93,
@@ -3956,8 +3956,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseAttack = 130,
         .baseDefense = 60,
         .baseSpeed = 65,
-        .baseSpAttack = 95,
-        .baseSpDefense = 110,
+        .baseSpAttack = 110,
+        .baseSpDefense = 95,
         .types = {TYPE_FIRE, TYPE_FIRE},
         .catchRate = 45,
         .expYield = 198,
@@ -3981,8 +3981,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_PORYGON] =
     {
-        .baseHP = 65,
-        .baseAttack = 60,
+        .baseHP = 75,
+        .baseAttack = 70,
         .baseDefense = 70,
         .baseSpeed = 40,
         .baseSpAttack = 85,
